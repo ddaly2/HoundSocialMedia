@@ -1,0 +1,228 @@
+body{
+     font-family: Montserrat;
+     font-weight: 100;
+}
+
+
+h1{
+     font-family: Montserrat;
+     font-size: 3.5rem;
+     line-height: 1.5;
+     font-weight: 900;
+     color: white;
+}
+
+h2{
+     font-family: Montserrat;
+     font-size: 3rem;
+     line-height: 1.5;
+     font-weight: 600;
+     color: white;
+}
+.container-fluid{
+     padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+     font-family: Montserrat;
+     font-size: .9rem;
+     padding: 0 0 4.5rem 0;
+}
+
+#name{
+     font-size: 2rem;
+     font-family: Ubuntu;
+}
+
+.nav-item{
+     margin: 0 18px;
+}
+
+.nav-link{
+     font-size: 1.1rem;
+}
+
+/* Download Buttons */
+
+.download-button{
+     margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+     width: 400px;
+     border-radius: 15px;
+     margin: 10% 0 0 10%;
+     position: relative;
+}
+
+/* Features Section */
+
+#title{
+     background-color: #019267;
+}
+
+.feature-title{
+     font-family: Montserrat;
+     font-weight: bold;
+     font-size: 1.5rem;
+}
+
+#features{
+     position: relative;
+     background-color: white;
+}
+
+/* Example of a media query breakpoint @ 1000px or more*/
+
+@media (max-width: 1000px){
+     #title{
+          text-align: center;
+     }
+     .title-img{
+          text-align: center;
+          max-width: 60%;
+          margin: 0;
+     }
+     #dl-btn{
+          margin-right: 0;
+     }
+}
+
+.fa-solid{
+     /* font-size: 2.5rem; */
+     color: #019267;
+     margin: 1rem;
+}
+
+.fa-solid:hover{
+     color: #007955;
+}
+
+#features{
+     padding: 7% 15%;
+     text-align: center;
+}
+
+.feature-explain{
+     color: #8f8f8f;
+}
+
+.col-lg-4{
+     padding: 3rem;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+     background-color: #019267;
+     text-align: center;
+     color: white;
+}
+
+.carousel-item{
+     padding: 5% 2% 7%;
+}
+
+/* .testimonial-img{
+     width: 10%;
+     border-radius: 100%;
+} */
+ 
+/*The following two elements are to make the rectangular image we have, circular. Copied from webfx.com */
+
+.circular--landscape { 
+     display: inline-block; 
+     position: relative;       
+     width: 200px; 
+     height: 200px; 
+     overflow: hidden; 
+     border-radius: 50%; 
+} 
+
+.testimonial-img { 
+     width: auto; 
+     height: 100%; 
+     margin-left: -50px; 
+}
+
+/* Press Section */
+
+#press{
+     background-color: #019267;
+     padding-bottom: 10%;
+     text-align: center;
+}
+.press-img{
+     width: 15%;
+     margin: 10% 3% 2%;
+}
+
+/* Pricing Cards */
+
+#pricing{
+     padding: 100px;
+     text-align: center;
+}
+
+#card-price{
+     color: black;
+     font-family: Montserrat;
+     font-weight: 900;
+}
+
+#pricing-title{
+     color: black;
+}
+
+#pricing-caption{
+     color: #8f8f8f;
+}
+
+#pricing-column{
+     padding: 3% 2%;
+}
+
+/* Call To Action (cta) */
+
+#cta{
+     background-color: #019267;
+     text-align: center;
+     padding: 7% 0 3% 0;
+}
+
+.cta-head{
+     font-weight: 900;
+     color: white;
+     margin-bottom: 2%;
+}
+
+.cta-button{
+     margin: 3% 2% 3% 0;
+}
+
+/* Footer */
+
+#footer{
+     text-align: center;
+     padding: 2% 0 1% 0;
+}
+
+#footer-icon{
+     color: #019267;
+     font-size: 2rem;
+     margin: 0 3% 3% 3%;
+}
+
+#footer-icon:hover{
+     color: #007955;
+}
+
+@media all and (max-width: 700px) {
+     h1 {
+          font-size: 2rem;
+     }
+}
